@@ -26,7 +26,7 @@ Per-kind spec shape for every workbook element (charts, KPIs, pivots, controls, 
 ## Element source kinds
 
 | `source.kind` | Reference fields | When to use |
-|---------------|------------------|-------------|
+|---------------|------------------|-----------|
 | `data-model`  | `dataModelId` (UUID), `elementId` (node id from the data model) | Element is fed directly by a data-model node. |
 | `table`       | `elementId` (sibling element id) | Element inherits from another workbook element on the same page. |
 | `warehouse-table` | `connectionId` (UUID), `path` (`[DB, SCHEMA, TABLE]`) | Element pulls directly from a warehouse table (no data model). |
