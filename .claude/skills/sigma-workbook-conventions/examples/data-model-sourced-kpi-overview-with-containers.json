@@ -274,33 +274,105 @@
             "kind": "data-model"
           },
           "columns": [
-            {"id": "col-date", "formula": "[Plugs Transaction Details - Relationships/Date]"},
-            {"id": "col-order-number", "formula": "[Plugs Transaction Details - Relationships/Order Number]"},
-            {"id": "col-product-name", "formula": "[Plugs Transaction Details - Relationships/Product Name]"},
-            {"id": "col-product-family", "formula": "[Plugs Transaction Details - Relationships/Product Family]"},
-            {"id": "col-product-line", "formula": "[Plugs Transaction Details - Relationships/Product Line]"},
-            {"id": "col-product-type", "formula": "[Plugs Transaction Details - Relationships/Product Type]"},
-            {"id": "col-brand", "formula": "[Plugs Transaction Details - Relationships/Brand]"},
-            {"id": "col-sku-number", "formula": "[Plugs Transaction Details - Relationships/Sku Number]"},
-            {"id": "col-product-key", "formula": "[Plugs Transaction Details - Relationships/Product Key]"},
-            {"id": "col-store-name", "formula": "[Plugs Transaction Details - Relationships/Store Name]"},
-            {"id": "col-store-region", "formula": "[Plugs Transaction Details - Relationships/Store Region]"},
-            {"id": "col-store-state", "formula": "[Plugs Transaction Details - Relationships/Store State]"},
-            {"id": "col-store-city", "formula": "[Plugs Transaction Details - Relationships/Store City]"},
-            {"id": "col-store-zip", "formula": "[Plugs Transaction Details - Relationships/Store Zip Code]"},
-            {"id": "col-store-key", "formula": "[Plugs Transaction Details - Relationships/Store Key]"},
-            {"id": "col-quantity", "formula": "[Plugs Transaction Details - Relationships/Quantity]"},
-            {"id": "col-price", "formula": "[Plugs Transaction Details - Relationships/Price]"},
-            {"id": "col-cost", "formula": "[Plugs Transaction Details - Relationships/Cost]"},
-            {"id": "col-revenue", "formula": "[Price] * [Quantity]", "name": "Revenue"}
+            {
+              "id": "col-date",
+              "formula": "[Plugs Transaction Details - Relationships/Date]"
+            },
+            {
+              "id": "col-order-number",
+              "formula": "[Plugs Transaction Details - Relationships/Order Number]"
+            },
+            {
+              "id": "col-product-name",
+              "formula": "[Plugs Transaction Details - Relationships/Product Name]"
+            },
+            {
+              "id": "col-product-family",
+              "formula": "[Plugs Transaction Details - Relationships/Product Family]"
+            },
+            {
+              "id": "col-product-line",
+              "formula": "[Plugs Transaction Details - Relationships/Product Line]"
+            },
+            {
+              "id": "col-product-type",
+              "formula": "[Plugs Transaction Details - Relationships/Product Type]"
+            },
+            {
+              "id": "col-brand",
+              "formula": "[Plugs Transaction Details - Relationships/Brand]"
+            },
+            {
+              "id": "col-sku-number",
+              "formula": "[Plugs Transaction Details - Relationships/Sku Number]"
+            },
+            {
+              "id": "col-product-key",
+              "formula": "[Plugs Transaction Details - Relationships/Product Key]"
+            },
+            {
+              "id": "col-store-name",
+              "formula": "[Plugs Transaction Details - Relationships/Store Name]"
+            },
+            {
+              "id": "col-store-region",
+              "formula": "[Plugs Transaction Details - Relationships/Store Region]"
+            },
+            {
+              "id": "col-store-state",
+              "formula": "[Plugs Transaction Details - Relationships/Store State]"
+            },
+            {
+              "id": "col-store-city",
+              "formula": "[Plugs Transaction Details - Relationships/Store City]"
+            },
+            {
+              "id": "col-store-zip",
+              "formula": "[Plugs Transaction Details - Relationships/Store Zip Code]"
+            },
+            {
+              "id": "col-store-key",
+              "formula": "[Plugs Transaction Details - Relationships/Store Key]"
+            },
+            {
+              "id": "col-quantity",
+              "formula": "[Plugs Transaction Details - Relationships/Quantity]"
+            },
+            {
+              "id": "col-price",
+              "formula": "[Plugs Transaction Details - Relationships/Price]"
+            },
+            {
+              "id": "col-cost",
+              "formula": "[Plugs Transaction Details - Relationships/Cost]"
+            },
+            {
+              "id": "col-revenue",
+              "formula": "[Price] * [Quantity]",
+              "name": "Revenue"
+            }
           ],
           "name": "Plugs Transaction Details",
           "order": [
-            "col-date", "col-order-number", "col-product-name", "col-product-family",
-            "col-product-line", "col-product-type", "col-brand", "col-sku-number",
-            "col-product-key", "col-store-name", "col-store-region", "col-store-state",
-            "col-store-city", "col-store-zip", "col-store-key", "col-quantity",
-            "col-price", "col-cost", "col-revenue"
+            "col-date",
+            "col-order-number",
+            "col-product-name",
+            "col-product-family",
+            "col-product-line",
+            "col-product-type",
+            "col-brand",
+            "col-sku-number",
+            "col-product-key",
+            "col-store-name",
+            "col-store-region",
+            "col-store-state",
+            "col-store-city",
+            "col-store-zip",
+            "col-store-key",
+            "col-quantity",
+            "col-price",
+            "col-cost",
+            "col-revenue"
           ]
         }
       ]
