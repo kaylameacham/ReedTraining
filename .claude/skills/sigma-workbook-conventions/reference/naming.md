@@ -5,7 +5,7 @@ Detailed naming rubric for Sigma workbook elements in this repo.
 ## Pages
 
 | Type | Pattern | Example |
-|------|---------|---------|
+|------|---------|-------|
 | Overview | "Overview" | `Overview` |
 | Trend / time-series | `<Subject> Trend` | `Revenue Trend` |
 | Detail / record-level | `<Subject> Detail` | `Variance Detail` |
