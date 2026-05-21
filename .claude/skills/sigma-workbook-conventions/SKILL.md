@@ -79,8 +79,10 @@ Free-text. Captured verbatim as the prompt-of-record and written to
 `workbooks/<name>/prompts/<timestamp>.md`. The "where" portion captures the
 destination folder URL/slug/name at the kickoff layer, so the planner doesn't
 have to re-ask. If the user doesn't name a destination here, the plan must
-surface it as an Open Decision before POST — destination is never silently
-defaulted.
+surface it as an Open Decision (item 6) the plan must ask, not a default the
+agent picks. **Plan approval IS the authorization to POST/PUT** — there is no
+separate "are you sure?" prompt at publish time. The destination must therefore
+be named explicitly in the plan, never implied.
 
 ### Worked example — what a build-mode kickoff looks like
 
